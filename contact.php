@@ -5,8 +5,8 @@
   $company = $_POST['company'];
   $message = $_POST['message'];
 
-  $email_from = 'WebMaster@Burchfield.info'
-  $email_subject = 'Contact Confirmation from Burchfield.info'
+  $email_from = 'WebMaster@Burchfield.info';
+  $email_subject = 'Contact Confirmation from Burchfield.info';
   $email_body = "name: $name.\n".
                 "email: $email.\n".
                 "company: $company.\n".

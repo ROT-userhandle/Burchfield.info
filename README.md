@@ -1,2 +1,0 @@
-# Burchfield.info
-Portfolio Webpage

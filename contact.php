@@ -1,5 +1,4 @@
 <?php
-
   $name = $_POST['name'];
   $email = $_POST['email'];
   $company = $_POST['company'];
@@ -18,4 +17,5 @@
 
               mail($to,$email-subject,$email_body,$headers);
               header("location: index.html");
+
 ?>
